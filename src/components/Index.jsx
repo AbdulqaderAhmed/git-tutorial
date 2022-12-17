@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 
-export default function index() {
+export default function Index() {
+  
+
   return (
     <div>
-
-        <h1>this is Newbranch.</h1>
-
+      adfasdf
+      <div>content.....</div>
+      <footer className={isBottom ? "showFooter" : "hideFooter"}>Masdasdasd</footer>
     </div>
-  )
+  );
 }
+
+// how to create sticky footer?
